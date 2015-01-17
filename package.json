@@ -1,0 +1,44 @@
+{
+
+  "name":         "generalist",
+  "version":      "0.1.0",
+
+  "preferGlobal": false,
+
+  "author":       "James Andrews <jka6502@gmail.com>",
+  "description":  "Structured dynamic code generation",
+
+  "keywords": [
+    "source",
+    "generator"
+  ],
+
+
+  "scripts": {
+    "test":       "node test/all.js"
+  },
+
+  "main":         "lib/generalist.js",
+
+  "repository": {
+    "type":       "git",
+    "url":        "https://github.com/jka6502/generalist.git"
+  },
+
+  "dependencies": {
+    "stratum-framework": "0.6.x"
+  },
+
+  "devDependencies": {
+    "glob":       "4.x.x",
+    "mocha":      "2.x.x",
+    "should":     "4.x.x"
+  },
+
+  "license":      "MIT",
+
+  "engines": {
+    "node":       ">=0.6.0"
+  }
+
+}
